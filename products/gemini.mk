@@ -16,7 +16,7 @@
 include vendor/pure/configs/pure_phone.mk
 
 # Inherit AOSP device configuration for sailfish
-$(call inherit-product, device/google/marlin/gemini.mk)
+$(call inherit-product, device/xiaomi/gemini/gemini.mk)
 
 # Inherit arm64 phone gapps
 # $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
